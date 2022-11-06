@@ -1,0 +1,64 @@
+@font-face {
+    font-family: abster;
+    src: url(font/abster-webfont.woff) format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar li a:hover{
+    color: #1fdfdf;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(image/logo.png);
+}
+
+.main .intro {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.main .intro a{
+    text-decoration: none;
+    color: white;
+    font-family: abster;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.main .intro h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.main .intro p{
+    font-size: 22px;
+}
+
+.main .intro button{
+    background: none;
+    border:2px solid darkseagreen;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.main .intro button:hover{
+    background-color: darkslategray;
+}
