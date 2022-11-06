@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.104.2">
-    <title>E-he Album</title>
+    <title>E-he Archive</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
     
@@ -61,6 +61,10 @@
         fill: currentColor;
       }
 
+      .d-flex .btn {
+        padding-left: 2%;
+      }
+
       button {
         border-style: none;
         background-color: rgba(0, 0, 0, 0);
@@ -110,7 +114,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#About.html">About</a>
               </li>
               
               <!-- <li class="nav-item dropdown">
@@ -129,33 +133,34 @@
                   Design
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Logo Design</a></li>
-                  <li><a class="dropdown-item" href="#">Album Jacket</a></li>
-                  <li><a class="dropdown-item" href="#">Poster & Leaflet</a></li>
+                  <li><a class="dropdown-item" href="#htmls/Drawing.html">Drawing</a></li>
+                  <li><a class="dropdown-item" href="#htmls/AlbumJacket.html">Album Jacket</a></li>
+                  <li><a class="dropdown-item" href="#htmls/PosterPamphlet.html">Poster, Pamphlet</a></li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Animation
+                  Video
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Loop</a></li>
-                  <li><a class="dropdown-item" href="#">2D</a></li>
-                  <li><a class="dropdown-item" href="#">3D</a></li>
+                  <li><a class="dropdown-item" href="#htmls/TitleLogo.html">Title, Logo</a></li>
+                  <li><a class="dropdown-item" href="#htmls/StageBackground.html">StageBackground</a></li>
+                  <li><a class="dropdown-item" href="#htmls/Animation.html">Animation</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Fliming</a>
               </li>
               <li class="nav-item">
-                <strong><a class="nav-link" href="#">Contact</a></strong>
+                <strong><a class="nav-link" href="#Contact.html">Contact</a></strong>
               </li>
 
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button type="button" class="btm_image" id="img_btn"><img  src="image/Search.jpg" width="40" height="40"></button>
+              <button class="btn" type="submit"><img  src="image/Search.jpg" width="20" height="20"></button>
+              
             </form>
           </div>
         </div>
@@ -168,7 +173,7 @@
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">E-he Album</h1>
+        <h1 class="fw-light">E-he Archive</h1>
         <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
         <p>
           <a href="#" class="btn btn-primary my-2">Main call to action</a>
