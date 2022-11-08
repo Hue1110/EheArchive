@@ -63,9 +63,37 @@ article {
 }
 
 /* About & Contact */
-    
 
-/* 이하는 home style 그대로 */
+article .table {
+    width: 100%;
+    height: 50vh;
+    padding: 10px 0;
+    display: grid;
+    place-items: center;
+}
+
+article .sns {
+    position: absolute;
+    text-align: left;
+}
+
+article span {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+article .btn {
+    color: white;
+    padding: 10px 10px;
+}
+
+article .btn:hover{
+    background-color: darkslategray;
+    cursor: pointer;
+}
+
+/* 이하는 home - style 그대로 */
 .main {
     width: 100%;
     height: 100vh;
