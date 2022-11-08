@@ -21,6 +21,20 @@ header {
     color: #1fdfdf;
 }
 
+/* about Images */
+main {
+    padding-top: 100px;
+}
+
+.card .text-muted {
+    text-align: right;
+}
+
+.card #chrt {
+    text-align: center;
+}
+
+/* about Videos */
 article {
     padding: 100px 30px;
 }
@@ -47,6 +61,8 @@ article {
 .textBox p{
     font-family: abster;
 }
+
+/* About & Contact */
     
 
 /* 이하는 home style 그대로 */
