@@ -39,18 +39,7 @@ article {
     padding: 100px 30px;
 }
 
-.youtube {
-    padding: 10px 0;
-    font-family: abster;
-    display: grid;
-    place-items: center;
-    text-align: left;
-}
 
-.youtube .textBox{
-    position: relative;
-    width: 560px;
-}
 
 .textBox h2{
     font-size: 20px;
