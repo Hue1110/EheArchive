@@ -1,5 +1,5 @@
 @font-face {
-    font-family: abster;
+    font-family: 'Quicksands';
     src: url(../font/abster-webfont.woff) format('woff');
 }
 
@@ -59,6 +59,7 @@ article .table {
     padding: 10px 0;
     display: grid;
     place-items: center;
+    font-size: x-large;
 }
 
 article .sns {
@@ -66,21 +67,58 @@ article .sns {
     text-align: left;
 }
 
-article span {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
 
-article .btn {
-    color: white;
-    padding: 10px 10px;
-}
-
-article .btn:hover{
-    background-color: darkslategray;
+article button {
+    background: gray;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    font-size:18px;
+    border-radius: 5px;
     cursor: pointer;
 }
+
+article #copyButton {
+    background: gray;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    font-size:18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* 
+article button #copy:before {
+    content:"Copied";
+    position:absolute;
+    top:-45px;
+    right:0px;
+    background: #5c81dc;
+    padding:8px 10px;
+    border-radius:20px;
+    font-size:15px;
+    display:none;
+}
+
+article button #copy:after {
+    content:"";
+    position: absolute;
+    top: -20px;
+    right:25px;
+    width:10px;
+    height:10px;
+    background:#5c81dc;
+    transform:rotate(45deg);
+    display:none;
+}
+
+article button #copy:before,
+article button #copy:after {
+    display:block;
+} */
+
 
 /* 이하는 home - style 그대로 */
 .main {
